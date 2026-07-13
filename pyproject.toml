@@ -1,0 +1,14 @@
+[project]
+name = "scalable-enterprise-rag"
+version = "0.1.0"
+description = "Scalable enterprise RAG — offline knowledge prep + online hybrid retrieval with ACL, domain routing, abstain, and ops metrics"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn>=0.27", "pydantic>=2.0"]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
