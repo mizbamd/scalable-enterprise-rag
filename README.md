@@ -91,8 +91,15 @@ PYTHONPATH=src uvicorn enterprise_rag.api:app --port 8091
 ```
 
 ## Documentation
-- [`docs/SYSTEM-DESIGN.md`](docs/SYSTEM-DESIGN.md) — full HLD + SLOs
+- [`docs/SYSTEM-DESIGN.md`](docs/SYSTEM-DESIGN.md) — high-level dual-path design + SLOs
+- **[`docs/architecture/enterprise-rag-lld.drawio`](docs/architecture/enterprise-rag-lld.drawio)** — **low-level draw.io** (tools, stores, control, ops)
+- [`docs/architecture/README.md`](docs/architecture/README.md) — speaking notes for AI team reviews
 - ADRs: [`docs/adr/`](docs/adr/)
 
+### Open the LLD
+1. Go to [diagrams.net](https://app.diagrams.net/) → **Open Existing Diagram** → select `docs/architecture/enterprise-rag-lld.drawio`
+2. Or VS Code → Draw.io Integration → open the same file
+3. Export PNG/SVG/PDF for ATRC / AI team slide decks
+
 ## Toolbox
-`Python` · `Hybrid RAG` · `ACL` · `Freshness` · `Domain routing` · `Abstain/guardrails` · `Ops metrics` · `FastAPI`
+`Python` · `Hybrid RAG` · `ACL` · `Freshness` · `Domain routing` · `Abstain/guardrails` · `Ops metrics` · `FastAPI` · `Azure OpenAI` · `Kafka` · `Databricks` · `OpenTelemetry`
