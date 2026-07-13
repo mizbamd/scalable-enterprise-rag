@@ -32,7 +32,7 @@
         <mxCell id="c4" value="Batch Eval Jobs&#xa;CI / Nightly quality" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7E5E4;strokeColor=#78716C;fontSize=11;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="155" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="c5" value="Architecture Review&#xa;ATRC demos / RFPs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7E5E4;strokeColor=#78716C;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="c5" value="Architecture Review&#xa;ATRC / platform demos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7E5E4;strokeColor=#78716C;fontSize=11;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="155" width="140" height="50" as="geometry" />
         </mxCell>
 
